@@ -1,10 +1,50 @@
+* Dicionário *
+
+- Variable is a container for a value. It behaves as the valu that it contains
+
+- String is a series of characters
+
+
+* Índice *
+
+* Lembretes * 
+
+
 
 ___________________
 Abrindo um projeto
 ___________________
 PyCharm > New Project  > Editar nome > dês-selecionar “Welcome Script” > Create 
 
+
 ____________________________________
 Abrindo um novo arquivo para Python
 ____________________________________
 File > New > Python File > Colocar um nome > Opção: Python File  
+
+
+____________________________
+Mudando o tamanho e a fonte 
+____________________________
+File > Settings > Editor > Font >  Escolher a fonte e o tamanho > Apply > Ok 
+
+
+_______________________________________
+Print a message on the terminal window
+_______________________________________
+print ('I love pizza')
+print ("It's really good")
+
+* Embora não haja diferença entre áspas simples e duplas, note como as áspas simples se misturam com o apóstrofo em
+inglês. Então, para citação é melhor as áspas duplas.  
+
+
+__________
+Variáveis 
+__________
+Variable is a container for a value. It behaves as the valu that it contains 
+
+*String is a series of characters 
+
+
+
