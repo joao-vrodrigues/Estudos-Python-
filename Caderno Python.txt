@@ -1,8 +1,12 @@
-* Dicionário *
+https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27vbk
+
+
+
+ * Dicionário *
 
 - Variable is a container for a value. It behaves as the valu that it contains
 
-- String (stg) is a series of characters
+- String (str) is a series of characters
 
 - Integer (int) is a whole number 
 
@@ -11,19 +15,42 @@
 - Boolean (bool) is an true or false variable 
 
 
-* Índice *
+
+ * Índice *
+
+- print 
+
+- type - para retornar o tipo de variável
+
+- len - Lenght - String Methods - para retornar a quantidade de caracteres na string 
+
+- find - String Methods - para encontrar a posição de uma letra específica dentro de uma string 
+
+- capitalize - String Methods - para deixar a primeira letra em maiúscula 
+
+- upper - String Methods - para deixar todas as letras da string maiúsculas 
+
+- lower - String Methods - para deixar as letras da string minúsculas 
+
+- isdigit - String Methods - para verificar se são dígitos, com retorno True ou False 
+
+- isalpha - String Methods - para verificar se são caracteres alphabeticos (espaço não é caracter alphabetico)
+
+- count - String Methods - para contar a quantidade de um caracter especifico   
 
 
 
-* Lembretes * 
+ * Lembretes * 
 
 - Só se pode concatenar variáveis do mesmo tipo 
 
 
 
-* Boas práticas *
+ * Boas práticas *
 
 - Variáveis com nomes compostos separar com _ 
+
+- Citação com áspas duplas " " 
 
 
 ___________________
@@ -121,7 +148,7 @@ Boolean (bool) is an true or false variable
 
 
 ____________________________________
-Verify tyhe data type of a variable
+Verify the data type of a variable
 ____________________________________
 	print(type(variable))
 	
@@ -160,6 +187,34 @@ Allows us to assign multiple variables at the same time in one line of code
 _______________
 String Methods 
 _______________
+	name = "BroCode"
+	print(len(name))
+	print(name.find("o"))
+	print(name.capitalize())
+	print(name.upper())
+	print(name.lower())
+	print(name.isdigit())
+	print(name.isalpha())
+	print(name.count("o"))
+	print(name*3)
+
+
+______________
+Type Casting
+______________
+Convert the data type of a value to another data type 
+
+	x = 1  #int
+	y = 2.0 #float
+	z = "3" #str
+
+	y = int(y)
+	z = int(z)
+
+	print(x)
+	print(y)
+	print(z*3) #se não fizessemos o type casting a cima, como a variavel estava em string, o resultado seria o retorno repetido tres vezes
+
 
 
 
