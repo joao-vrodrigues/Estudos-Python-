@@ -1,0 +1,10 @@
+
+___________________
+Abrindo um projeto
+___________________
+PyCharm > New Project  > Editar nome > dês-selecionar “Welcome Script” > Create 
+
+____________________________________
+Abrindo um novo arquivo para Python
+____________________________________
+File > New > Python File > Colocar um nome > Opção: Python File  
