@@ -38,6 +38,19 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 
 - count - String Methods - para contar a quantidade de um caracter especifico   
 
+- input - para aceitar um user input 
+
+- import math - importar o módulo de matemática
+
+	- round - para arredondar 
+	- math.ceil - ceiling - para arredondar para cima 
+	- math.floor - para arredondar para baixo 
+	- abs - absolute - para deixar o número positivo, módulo 
+	- pow - power - print(pow(variavel,x)) - para elevar a uma potência 
+	- sqrt - square root - para calcular raiz quadrada ]
+	- max - para encontrar o maior número dentro das variáveis declaradas 
+	- min - para encontrar o menor número dentro das variáveis declaradas 
+
 
 
  * Lembretes * 
@@ -215,6 +228,42 @@ Convert the data type of a value to another data type
 	print(y)
 	print(z*3) #se não fizessemos o type casting a cima, como a variavel estava em string, o resultado seria o retorno repetido tres vezes
 
+
+___________
+User Input
+___________
+	name = input("What is your name?: ")
+	age = int(input("How old are you?: "))
+	height = float(input("How tall are you?: "))
+
+	print("Hello " + name)
+	print("You are " + str(age) + " years old")
+	print("You are " + str(height) + " cm")
+
+ 	# quando feito um input de um numero ele entra como str, para fazermos
+	 uma soma, ele precisa ser int ou float, então declaramos ele como int,
+	 fazemos a operação matemática, e depois com type cast voltamos ele
+ 	 de volta para str
+
+
+_______________
+Math functions
+_______________
+	import math
+
+	pi = 3.14
+	x = 1
+	y = 2
+	z = 3
+
+	print(round(pi))
+	print(math.ceil(pi))
+	print(math.floor(pi))
+	print(abs(pi))
+	print(pow(pi,2))
+	print(math.sqrt(420))
+	print(max(x,y,z))
+	print(min(x,y,z))
 
 
 
