@@ -354,7 +354,18 @@ elif not(temp < 0 or temp > 30):
     print("go outside")
 
 
+___________
+While loop
+___________
+A statement that will execute it's block of code, as long as it's condition remains true. 
+
+name = ""
+
+while len(name) == 0:
+    name = input("Enter your name: ")
+
+print ("Hello " + name)
 
 
-
+________________________
 
