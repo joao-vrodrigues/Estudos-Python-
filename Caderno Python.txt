@@ -41,7 +41,6 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 - input - para aceitar um user input 
 
 - import math - importar o módulo de matemática
-
 	- round - para arredondar 
 	- math.ceil - ceiling - para arredondar para cima 
 	- math.floor - para arredondar para baixo 
@@ -62,6 +61,15 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 	- And
 	- Or
 	- Not
+
+- Loops
+	- While
+	- For 
+
+- range
+
+- Import Time 
+	- time.sleep 
 
 
 
@@ -367,5 +375,36 @@ while len(name) == 0:
 print ("Hello " + name)
 
 
-________________________
+__________
+For Loops
+__________
+A statement that will execute it's block of code a limited amount of times 
 
+- while loop - unlimted 
+- for loop - limited 
+
+for i in range(10):
+    print(i+1)
+
+for i in range (50,100+1,2):
+    print(i)
+
+* o primeiro valor (50) é inclusivo, e o último (100) é exclusivo, por isso no final precisaremos adicionar o +1
+
+for i in range (50,100+1,2):
+    print(i)
+
+* o step (2) determina que a contagem vai ser de dois em dois
+
+for i in "Bro Code":
+    print(i)
+
+import time
+
+for seconds in range (10,0,-1):
+    print(seconds)
+    time.sleep(1)
+print("Happy New Year")
+
+
+______________________
