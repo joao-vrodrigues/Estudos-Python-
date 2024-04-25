@@ -84,6 +84,15 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 	- Continue
 	- Pass  
 
+- Lists 
+	- []
+	- variavel.append("item") - para adicionar um item à tabela na ultima posição 
+	- variavel.remove("item") - para retirar um elemento da tabela (nome do elemento e não posição)
+	- variavel.pop() - para remover o ultimo item da lista
+	- variavel.insert(x,"item") - para inserir um item em uma posição predeterminada 
+	- variavel.sort() - para ordenar a lista em ordem alfabetica
+	- variavel.clear() - para remover todos os itens de uma lista 
+
 
 
  * Lembretes * 
@@ -470,7 +479,32 @@ for i in range(1,21):
         print(i)
 
 
-___________________
+______
+Lists
+______
+Used to store multiple items in a single variable
+
+food = ["pizza", "hamburguer", "hotdog", "spaghetti", "pudding"]
+
+food[0] = "sushi"
+
+food.append("ice cream")
+food.remove("hotdog")
+food.pop()
+food.insert(0,"cake")
+food.sort()
+food.clear()
+
+for x in food:
+    print(x)
+* Para retornar a lista inteira 
+
+
+_________________
+
+
+
+
 
 
 
