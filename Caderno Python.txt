@@ -500,9 +500,24 @@ for x in food:
 * Para retornar a lista inteira 
 
 
-_________________
+___________
+2D - Lists 
+___________
+Lista de listas
+
+rinks = ["coffe", "soda", "tea"]
+dinner = [ "pizza", "hamburguer", "hotdog"]
+dessert = ["cake", "ice cream"]
+
+food = [drinks, dinner, dessert]
+
+print(food[0] [1])
+
+# primeiro index é para indereçar a lista
+# segundo index é para indereçar o ítem da lista 
 
 
+___________
 
 
 
