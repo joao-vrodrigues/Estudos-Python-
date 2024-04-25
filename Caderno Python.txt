@@ -517,9 +517,26 @@ print(food[0] [1])
 # segundo index é para indereçar o ítem da lista 
 
 
-___________
+_______
+Tuples 
+_______
+Collection which is ordered and unchangeable used to group together related data 
+
+#tuple é parecido com uma lista, mas são ordenados e imutáveis 
+
+student = ("Bro", 21, "Male")
+
+print(student.count("Bro"))
+print(student.index("Male"))
+
+for x in student:
+    print(x)
+
+if "Bro" in student:
+    print("Bro is here")
 
 
+_____________
 
 
 
