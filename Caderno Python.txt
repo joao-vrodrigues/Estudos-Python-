@@ -92,10 +92,22 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 	- variavel.insert(x,"item") - para inserir um item em uma posição predeterminada 
 	- variavel.sort() - para ordenar a lista em ordem alfabetica
 	- variavel.clear() - para remover todos os itens de uma lista 
+	- Set - {}
 	- Set - variavel1.update(variavel2) - para adicionar os itens da variavel2 na variavel1
 	- Set - variavel3 = variavel1.union(variavel2) - para unir os dois sets em um terceiro set
 	- Set - variavel1.difference(variavel2) - para ver os itens diferentes da variavel1 em relação à 2
 	- Set - variavel1.intersection(variavel2) - para ver os itens iguais entre as duas variáveis 
+
+- Dictionary
+	- {}
+	- variavel.get() - verificar a existencia de uma key
+	- variavel.keys() - verificar as key's dentro do dicionário
+	- variavel.values() - verificar os valores dentro do dicio
+	- variavel.items() - para retornar as keys junto de seus valores 
+	- variavel.update(:) - para adicionar uma nova key e seu respectívo valor, ou alterar suas informações 
+	- variavel.pop() - para retirar uma key específica
+	- variavel.clear() - para apagar o dicionário 
+	
 
 
 
@@ -110,6 +122,12 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 - Variáveis com nomes compostos separar com _ 
 
 - Citação com áspas duplas " " 
+
+
+
+ * Dúvidas *
+
+- o que são arrays 
 
 
 ___________________
@@ -563,8 +581,30 @@ for x in dinner_table:
 #mesmo que tenham 3 itens iguais, será retornado somente um exemplar
 
 
-_____________________
+___________
+Dictionary
+___________
+A changeable, unordered collection of unique key: value pairs Fast because they use hashing, allow us to access 
+a value quickly 
 
+capitals = {"USA" : "Washingtone DC",
+            "India" : "New Dehli",
+            "China" : "Beijing",
+            "Russia" : "Moscow"}
+
+capitals.update({"Germany" : "Berlin"})
+capitals.update({"USA" : "las Vegas"})
+
+#print(capitals["Germany"]) #da erro
+#print(capitals.get("Germany")) # uma forma de verificar sem dar erro
+#print(capitals.keys())
+#print(capitals.items())
+
+for key,value in capitals.items():
+    print(key,value)
+
+
+________________________________
 
 
 
