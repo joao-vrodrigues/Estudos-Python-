@@ -84,7 +84,7 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 	- Continue
 	- Pass  
 
-- Lists 
+- Lists / Tuple / Set
 	- []
 	- variavel.append("item") - para adicionar um item à tabela na ultima posição 
 	- variavel.remove("item") - para retirar um elemento da tabela (nome do elemento e não posição)
@@ -92,6 +92,10 @@ https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27
 	- variavel.insert(x,"item") - para inserir um item em uma posição predeterminada 
 	- variavel.sort() - para ordenar a lista em ordem alfabetica
 	- variavel.clear() - para remover todos os itens de uma lista 
+	- Set - variavel1.update(variavel2) - para adicionar os itens da variavel2 na variavel1
+	- Set - variavel3 = variavel1.union(variavel2) - para unir os dois sets em um terceiro set
+	- Set - variavel1.difference(variavel2) - para ver os itens diferentes da variavel1 em relação à 2
+	- Set - variavel1.intersection(variavel2) - para ver os itens iguais entre as duas variáveis 
 
 
 
@@ -536,7 +540,31 @@ if "Bro" in student:
     print("Bro is here")
 
 
-_____________
+_____
+Set
+_____
+Collection which is unordered, unindexed. No duplicate values 
+
+utensils = {"fork", "spoon", "knife"}
+dishes = {"bowl", "plate", "cup", "knife"}
+
+utensils.add("knapikin")
+utensils.remove("fork")
+utensils.clear()
+dishes.update(utensils)
+dinner_table = utensils.union(dishes)
+
+print(dishes.difference(utensils))
+print(utensils.intersection(dishes))
+
+for x in dinner_table:
+    print(x)
+
+#mesmo que tenham 3 itens iguais, será retornado somente um exemplar
+
+
+_____________________
+
 
 
 
