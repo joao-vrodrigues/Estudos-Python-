@@ -627,14 +627,33 @@ print(last_name)
 print(last_character)
 
 
-_____________________
+__________
+Functions
+__________
+A block of code which is executed only when it is called 
+
+def hello(name):
+    print("hello " + name)
+    print("have a nice day!")
+
+hello("Bro") #para chamar a função é função(), a str em seguida é a str que vai preencher o index
+
+#ou
+
+name = "Bro"
+
+hello(name)
 
 
+def hello (first_name, last_name, age):
+    print("Hello" + first_name + " " + last_name)
+    print("You are " + str(age) + "years old")
+    print("Have a nice day!")
+
+hello("Bro", "Code",21)
 
 
-
-
-
+_______________
 
 
 
