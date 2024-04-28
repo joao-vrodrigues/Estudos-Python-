@@ -472,7 +472,6 @@ for i in range (rows):
 ____________________
 Break - Continue - Pass
 ____________________
-
 Loop Control Statements = change a loops execution from it's normal sequence
 
 # break = used to terminate the loop entirely
@@ -604,7 +603,40 @@ for key,value in capitals.items():
     print(key,value)
 
 
-________________________________
+_______________
+Index Operator
+_______________
+name = "bro code"
+
+if (name[0].islower()):
+    name = name.capitalize()
+print(name)
+
+
+first_name = name[:3].upper()
+
+print(first_name)
+
+
+first_name = name[:3].upper()
+last_name = name [4:].lower()
+last_character = name[-1] # para retornar o ultimo elemento da sequencia
+
+print(first_name)
+print(last_name)
+print(last_character)
+
+
+_____________________
+
+
+
+
+
+
+
+
+
 
 
 
