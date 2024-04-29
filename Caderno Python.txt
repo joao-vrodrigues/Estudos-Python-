@@ -653,7 +653,42 @@ def hello (first_name, last_name, age):
 hello("Bro", "Code",21)
 
 
-_______________
+_________________
+Return Statement
+_________________
+Functions send Python values/objects back to the caller. These values/objects are known as the function's 
+return value. 
+
+def multiply (number1, number2)
+    result = number1 * number2
+    return result
+
+print(multiply(6,8))
+
+#ou
+
+x = multiply(6,8)
+
+print(x)
+
+#ou
+
+def multiply(number1, number2):
+    return number1 * number2
+
+x = multiply(6,8)
+
+print(x)
+
+
+____________________
+
+
+
+
+
+
+
 
 
 
