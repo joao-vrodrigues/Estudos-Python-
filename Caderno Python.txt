@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLPRNBHSYqlMC3ljrMiGGUd2lfKFC27vbk
 
+https://wiki.python.org.br/ListaDeExercicios
+
 
 
  * Dicionário *
@@ -682,12 +684,28 @@ print(x)
 
 
 ____________________
+Keywords arguments
+____________________
+Arguments preceded by an identifier when we pass them to a function. The order of the arguments doesn't matter,
+ unlike positional arguments Python knows the nammes of the arguments that our function receives
+
+def hello (first, middle, last):
+    print("Hello " + first + middle + last)
+
+hello("Bro ", "Dude ", "Code")
+
+# desta forma cada um dos nomes ficaria dependente da ordem que fossem enunciados
+# para cravar um nome especifico em uma posição especifica:
+
+def hello (first, middle, last):
+    print("Hello " + first + middle + last)
+
+hello(last = "Code", middle = "Dude ", first = "Bro ")
 
 
-
-
-
-
+______________________
+Nested Function Calls
+______________________
 
 
 
